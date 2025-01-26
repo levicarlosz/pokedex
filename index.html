@@ -17,7 +17,7 @@
       href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
     />
 
-    <link rel="stylesheet" href="assets/css/pokedex.css">
+    <link rel="stylesheet" href="assets/css/pokedex.css" />
 
     <!--CSS-->
     <link rel="stylesheet" href="/assets/css/global.css" />
@@ -27,33 +27,13 @@
     <main>
       <section class="content">
         <h1>Pokedex</h1>
-        <ol class="pokemons">
-
-          <li class="pokemon grass">
-            <div class="header">
-              <span class="name">Bulbasaur</span>
-              <span class="number">#1</span>
-            </div>
-            <div class="details">
-              <ol class="types">
-                <li class="type grass">Grama</li>
-                <li class="type poison">Poison</li>
-              </ol>
-              <img
-                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
-                alt=""
-              />
-            </div>
-          </li>
-
-
-          
-
-          
-        </ol>
+        <ol class="pokemons" id="pokemonsList"></ol>
       </section>
+      <span>Desenvolvido por <a href="#">Levi Carlos</a></span>
     </main>
     <!--Script-->
+    <script src="/assets/js/pokeApi.js"></script>
+    <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/main.js"></script>
   </body>
 </html>
